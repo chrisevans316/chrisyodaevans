@@ -1,93 +1,51 @@
-css
-
-/* Reset & Base Styles */
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background: #f0f0f0;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  /* Header */
-  header {
-    background: #333;
-    color: #fff;
-    padding: 20px;
-    position: relative;
-  }
-  
-  .hamburger-menu {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
-  
-  .dropdown {
-    display: none;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background: #444;
-    border-radius: 5px;
-    flex-direction: column;
-    width: 150px;
-  }
-  
-  .dropdown a {
-    display: block;
+    background: radial-gradient(circle, #FFD700, #FC8EAC);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #6cff5f, #2009f3);
     padding: 10px;
-    color: #fff;
+    color: white;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    color: white;
     text-decoration: none;
-  }
-  
-  .dropdown a:hover {
-    background: #555;
-  }
-  
-  /* Main Content */
-  .content {
-    flex: 1;
+    font-weight: bold;
+}
+
+.hero, .about {
     padding: 20px;
-  }
-  
-  .hero-image {
-    max-width: 90%;
+}
+
+.hero img {
+    max-width: 100%;
     height: auto;
-    border: 5px solid #333;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: transform 0.3s ease;
-  }
-  
-  .hero-image:hover {
-    transform: scale(1.05);
-  }
-  
-  /* About Me Section */
-  .about {
-    display: none;
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  
-  /* Footer */
-  footer {
+    border-radius: 15px;
+}
+
+footer {
     background: #222;
-    color: #fff;
-    padding: 20px;
-  }
-  
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
