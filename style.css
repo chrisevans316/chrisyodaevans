@@ -1,51 +1,20 @@
-body {
-    font-family: Arial, sans-serif;
+html, body {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    text-align: center;
-    background: radial-gradient(circle, #FFD700, #FC8EAC);
-    color: #333;
 }
 
-header {
-    background: linear-gradient(135deg, #6cff5f, #2009f3);
-    padding: 10px;
-    color: white;
-}
-
-.menu {
-    list-style: none;
-    padding: 0;
+body {
     display: flex;
-    justify-content: center;
-    gap: 15px;
+    flex-direction: column;
 }
 
-.menu li {
-    display: inline;
-}
-
-.menu a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.hero, .about {
-    padding: 20px;
-}
-
-.hero img {
-    max-width: 100%;
-    height: 300px;
-    border-radius: 100px;
+main {
+    flex: 1;
 }
 
 footer {
-    background: #222;
-    color: white;
+    text-align: center;
     padding: 10px;
-    position: bottom;
-    bottom: 0;
-    width: 100%;
+    background: black;
+    color: white;
 }
