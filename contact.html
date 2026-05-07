@@ -11,14 +11,14 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --gold: #c9a84c;
-      --gold-dim: #8a6e2e;
-      --cream: #f0ead8;
-      --dark: #0d0c0a;
-      --mid: #1a1815;
-      --surface: #211f1b;
-      --border: rgba(201,168,76,0.2);
-      --text-muted: #7a7060;
+      --gold: #000000;
+      --gold-dim: #f7e7e7;
+      --cream: #ffffff;
+      --dark: #fffefe;
+      --mid: #ffffff;
+      --surface: #000000;
+      --border: rgba(198, 167, 167, 0.2);
+      --text-muted: #000000;
     }
 
     html, body {
@@ -70,7 +70,7 @@
       padding: 1.25rem 2.5rem;
       border-bottom: 1px solid var(--border);
       backdrop-filter: blur(8px);
-      background: rgba(13,12,10,0.6);
+      background: rgb(255, 255, 255);
       z-index: 10;
     }
 
@@ -189,7 +189,7 @@
 
     input:focus, textarea:focus, select:focus {
       border-color: var(--gold);
-      background: rgba(201,168,76,0.04);
+      background: rgb(0, 0, 0);
     }
 
     textarea {
@@ -252,7 +252,7 @@
       text-align: center;
       padding: 3rem 2rem;
       border: 1px solid var(--border);
-      background: rgba(201,168,76,0.04);
+      background: rgba(229, 229, 229, 0.04);
     }
 
     .success-msg.show { display: block; }
