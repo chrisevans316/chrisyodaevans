@@ -1,20 +1,14 @@
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
 body {
-    display: flex;
-    flex-direction: column;
+  font-family: 'Caveat', cursive;
+  font-size: 1.15rem;
+  font-weight: 400;
 }
 
-main {
-    flex: 1;
+h1, h2, h3 {
+  font-family: 'Permanent Marker', cursive;
 }
 
-footer {
-    text-align: center;
-    padding: 5px;
-    background: black;
-    color: white;
+nav a {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
 }
